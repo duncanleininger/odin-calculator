@@ -1,0 +1,93 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    min-height: 500px;
+}
+
+div {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+#LASTscreen {
+    text-align: right;
+    font-size: 35px;
+    position: relative;
+    border: 0;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+#CURRENTscreen {
+    text-align: right;
+    font-size: 65px;
+    position: relative;
+    border: 0;
+    margin-right: 20px;
+}
+
+#calcBorder {
+    width: 400px;
+    height: 500px;
+    background-color: grey;
+    border-radius: 20px;
+    position: relative;
+}
+
+#calcDisplay {
+    background-color: azure;
+    position: absolute;
+    width: 365px;
+    height: 125px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+#numblock {
+    width: 365px;
+    height: 300px;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 180px;
+    background-color: darkgrey;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btnn {
+    flex: 1 0 21%;
+    margin: 4px;
+    border-radius: 5px;
+    border-color: black;
+    font-size: 25px;
+    background-color: rgb(230, 230, 230);
+}
+
+.btnn:hover {
+    background-color: rgb(210, 210, 210);
+}
+
+#Btn0 {
+    flex-grow: 15;
+}
+
+#BtnAc {
+    background-color: rgb(255, 150, 150);
+}
+
+#BtnAc:hover {
+    background-color: rgb(245, 140, 140);
+}
+
+#BtnC {
+    background-color: rgb(170, 170, 255);
+}
+
+#BtnC:hover {
+    background-color: rgb(160, 160, 245);
+}
